@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.8)  11 FEB 2024 13:46
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.8)  13 FEB 2024 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -970,11 +970,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_total_int=\count387
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 21.
- (./demo.aux (./chapters/abstract.aux) (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux
-
-LaTeX Warning: Label `tab:category' multiply defined.
-
-) (./chapters/chapter4.aux
+ (./demo.aux (./chapters/abstract.aux) (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux
 
 LaTeX Warning: Label `tab:category' multiply defined.
 
@@ -1180,28 +1176,28 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
  (f:/soft/TexLive/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
  (f:/soft/TexLive/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 60.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 59.
  (f:/soft/TexLive/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.05624> not available
-(Font)              size <14.4> substituted on input line 60.
+(Font)              size <14.4> substituted on input line 59.
 
 [2
 
 
 
 ]
-Overfull \hbox (7.16307pt too wide) detected at line 63
+Overfull \hbox (7.16307pt too wide) detected at line 62
  \TU/TimesNewRoman(0)/m/n/15.05624 Computer Science and Technology 
  []
 
@@ -1210,142 +1206,142 @@ Overfull \hbox (7.16307pt too wide) detected at line 63
 
 
 ]
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 []\TU/SimHei(0)/m/n/16.06 面
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 向
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 代
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 码
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 克
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 隆
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 检
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 测
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 的
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 多
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 维
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 源
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 代
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 码
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 表
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 征
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 学
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 习
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 方
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 法
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 研
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 究 
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 []\TU/SimHei(0)/m/n/16.06 北
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 京
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 理
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 工
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 大
  []
 
 
-Overfull \hbox (4.015pt too wide) in paragraph at lines 65--65
+Overfull \hbox (4.015pt too wide) in paragraph at lines 64--64
 \TU/SimHei(0)/m/n/16.06 学 
  []
 
@@ -1445,77 +1441,98 @@ Package fontspec Info: Font family 'SimSun(1)' created for font 'SimSun' with
 
  (./chapters/chapter1.tex
 第1章
+File: figures/Proportion.png Graphic file (type bmp)
+<figures/Proportion.png>
+File: figures/assembly.png Graphic file (type bmp)
+<figures/assembly.png>
 [1
 
 
 
-] [2]
+]
+File: figures/figure1.png Graphic file (type bmp)
+<figures/figure1.png>
+ [2] [3] [4]
 File: figures/figure1.png Graphic file (type bmp)
 <figures/figure1.png>
 
 
-Package natbib Warning: Citation `Jiang2005Size' on page 3 undefined on input line 64.
+Package natbib Warning: Citation `Jiang2005Size' on page 5 undefined on input line 99.
 
-Missing character: There is no 万 (U+4E07) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-) [3]
+) [5]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 第2章
-[4
+[6
 
 
 
 
-] [5]) [6]
+] [7]) [8]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 第3章
-[7
+[9
 
 
 
 
-] [8]) [9]
+] [10]) [11]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 第4章
-[10
-
-
-
-
-]) [11]
-\openout2 = `chapters/chapter5.aux'.
-
- (./chapters/chapter5.tex
-第5章
 [12
 
 
 
 
 ]) [13]
-\openout2 = `chapters/chapter6.aux'.
+\openout2 = `chapters/chapter5.aux'.
 
- (./chapters/chapter6.tex
-第6章
+ (./chapters/chapter5.tex
+第5章
 [14
 
 
 
 
-]) [15] [16]
+]) [15]
+\openout2 = `chapters/chapter6.aux'.
+
+ (./chapters/chapter6.tex
+第6章
+[16
+
+
+
+
+]) [17] [18]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex) [17
+ (./chapters/conclusion.tex) [19
 
 
 
 
-] (./demo.bbl) [18
+] (./demo.bbl
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 13.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[]\TU/TimesNewRoman(0)/m/n/10.53937 Synopsys, Inc. 2023 Open Source Security and Risk Analysis Report. 2023. [][]$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][][] []
+ []
+
+) [20
 
 
 
@@ -1527,14 +1544,14 @@ Missing character: There is no 万 (U+4E07) in font Times New Roman/OT:script=la
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 (Font)              using `TU/SimSun(0)/m/n' instead on input line 10.
 
-) [19
+) [21
 
 
 
 ]
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex) [20
+ (./chapters/thanks.tex) [22
 
 
 
@@ -1555,15 +1572,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `demo.out' has not changed.
-(rerunfilecheck)             Checksum: 46B26995651C504E1332A0013879D59A;8196.
+(rerunfilecheck)             Checksum: 9C425C2B9F1D7A969AC4A943BC85EA5B;8188.
  ) 
 Here is how much of TeX's memory you used:
- 36597 strings out of 476179
- 819518 string characters out of 5807339
- 1086716 words of memory out of 5000000
- 56580 multiletter control sequences out of 15000+600000
- 486568 words of font info for 177 fonts, out of 8000000 for 9000
+ 36704 strings out of 476179
+ 822572 string characters out of 5807339
+ 1086916 words of memory out of 5000000
+ 56670 multiletter control sequences out of 15000+600000
+ 493548 words of font info for 209 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,11n,118p,1339b,804s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on demo.pdf (32 pages).
+Output written on demo.pdf (34 pages).
