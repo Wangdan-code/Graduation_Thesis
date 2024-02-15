@@ -67,47 +67,51 @@ Warning--empty editor in 9148302
 Warning--there's a school but no address in 王亚芳2020基于图像相似度检测代码克隆
 Warning--empty editor in 10.1145/3236024.3236026
 Warning--empty booktitle in 10.1145/3236024.3236026
+Warning--The editor in 7886988 is missing.
+Warning--empty editor in 7886988
+Warning--empty editor in 10.1145/3324884.3416562
+Warning--empty booktitle in 10.1145/3324884.3416562
 
 Done.
-You've used 41 entries,
+You've used 43 entries,
             4577 wiz_defined-function locations,
-            1294 strings with 17312 characters,
-and the built_in function-call counts, 25871 in all, are:
-= -- 2920
-> -- 440
-< -- 29
-+ -- 264
-- -- 133
-* -- 2072
-:= -- 2870
-add.period$ -- 145
-call.type$ -- 41
+            1305 strings with 17832 characters,
+and the built_in function-call counts, 27359 in all, are:
+= -- 3086
+> -- 466
+< -- 31
++ -- 280
+- -- 141
+* -- 2186
+:= -- 3033
+add.period$ -- 152
+call.type$ -- 43
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 90
-duplicate$ -- 1755
-empty$ -- 2732
-format.name$ -- 133
-if$ -- 6391
+cite$ -- 96
+duplicate$ -- 1860
+empty$ -- 2883
+format.name$ -- 141
+if$ -- 6763
 int.to.chr$ -- 0
-int.to.str$ -- 41
+int.to.str$ -- 43
 missing$ -- 0
-newline$ -- 231
-num.names$ -- 43
-pop$ -- 162
+newline$ -- 242
+num.names$ -- 45
+pop$ -- 173
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 804
+skip$ -- 859
 stack$ -- 0
-substring$ -- 2840
-swap$ -- 582
-text.length$ -- 29
+substring$ -- 3004
+swap$ -- 625
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 415
-warning$ -- 49
-while$ -- 227
-width$ -- 43
-write$ -- 382
-(There were 49 warnings)
+type$ -- 429
+warning$ -- 53
+while$ -- 240
+width$ -- 45
+write$ -- 401
+(There were 53 warnings)

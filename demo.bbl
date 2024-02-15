@@ -259,4 +259,17 @@ Alomari~H~W, Stephan~M.
 Clone Detection through {{srcClone}}: {{A}} Program Slicing Based Approach~[J].
 Journal of Systems and Software, 2022, 184:  111115.
 
+\bibitem{7886988}
+Sajnani~H, Saini~V, Svajlenko~J, et~al.
+SourcererCC: Scaling Code Clone Detection to Big-Code~[C].
+In 2016 IEEE/ACM 38th International Conference on Software Engineering (ICSE),
+  2016:  1157--1168.
+
+\bibitem{10.1145/3324884.3416562}
+Wu~Y, Zou~D, Dou~S, et~al.
+SCDetector: software functional clone detection based on semantic tokens
+  analysis~[C/OL].
+New York, NY, USA, 2021:  821–833.
+\url{https://doi.org/10.1145/3324884.3416562}.
+
 \end{thebibliography}
