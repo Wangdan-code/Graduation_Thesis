@@ -4,19 +4,18 @@
 \contentsline {chapter}{\numberline {第1章\hspace {.3em}}绪论}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}研究背景与意义}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}研究现状与趋势}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}代码克隆检测技术概述}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}代码表征学习概述}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.1}代码克隆检测技术}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}代码表征学习}{4}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}研究内容}{10}{section.1.3}%
 \contentsline {section}{\numberline {1.4}论文结构}{12}{section.1.4}%
-\contentsline {chapter}{\numberline {第2章\hspace {.3em}}面向代码克隆检测的多维源代码表征方法}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}代码克隆检测关键技术}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}源代码表征学习的关键技术挑战}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}研究方案}{13}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}研究思路及总体框架}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}代码处理}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}多维源代码表征学习}{14}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}克隆检测任务实现}{14}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}本章小结}{15}{section.2.4}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}多维源代码表征学习方法总体设计}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}代码表征学习关键技术挑战}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}RLCCD框架研究方案}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}研究思路及总体框架}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}代码处理}{14}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}多维源代码表征学习}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}克隆检测任务实现}{15}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}本章小结}{15}{section.2.3}%
 \contentsline {chapter}{\numberline {第3章\hspace {.3em}}基于预训练辅助模型的Token表征学习}{16}{chapter.3}%
 \contentsline {section}{\numberline {3.1}研究动机}{16}{section.3.1}%
 \contentsline {section}{\numberline {3.2}方法设计}{16}{section.3.2}%
@@ -47,16 +46,15 @@
 \contentsline {subsection}{\numberline {5.3.1}实验设计}{22}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}图过滤机制实验结果}{22}{subsection.5.3.2}%
 \contentsline {section}{\numberline {5.4}本章小结}{22}{section.5.4}%
-\contentsline {chapter}{\numberline {第6章\hspace {.3em}}多维源代码表征方法RLCCD整体框架}{23}{chapter.6}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}特征融合及RLCCD框架验证}{23}{chapter.6}%
 \contentsline {section}{\numberline {6.1}特征融合}{23}{section.6.1}%
-\contentsline {section}{\numberline {6.2}实验设置}{23}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}实验环境}{23}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}实验数据集}{23}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}对比工具}{24}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}RLCCD框架评估 }{24}{section.6.3}%
-\contentsline {section}{\numberline {6.4}本章小结}{25}{section.6.4}%
-\contentsline {chapter}{结论}{26}{chapter*.13}%
-\contentsline {chapter}{参考文献}{27}{chapter*.14}%
-\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{31}{chapter*.15}%
-\contentsline {chapter}{致谢}{32}{chapter*.16}%
+\contentsline {section}{\numberline {6.2}RLCCD框架验证}{23}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}实验设置}{23}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}对比工具}{24}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}RLCCD性能评估}{24}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}本章小结}{24}{section.6.3}%
+\contentsline {chapter}{结论}{25}{chapter*.14}%
+\contentsline {chapter}{参考文献}{26}{chapter*.15}%
+\contentsline {chapter}{攻读学位期间发表论文与研究成果清单}{30}{chapter*.16}%
+\contentsline {chapter}{致谢}{31}{chapter*.17}%
 \contentsfinish 
