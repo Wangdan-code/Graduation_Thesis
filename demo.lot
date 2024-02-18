@@ -4,13 +4,17 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {3.1}{\ignorespaces 预训练辅助模型实验结果\relax }}{19}{table.caption.10}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces 实验环境配置\relax }}{20}{table.caption.10}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces POJ104数据集\relax }}{20}{table.caption.11}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces 本文预处理后的POJ104数据集正负样本数\relax }}{21}{table.caption.12}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces 分类问题的混淆矩阵\relax }}{21}{table.caption.13}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces 预训练辅助模型实验结果\relax }}{21}{table.caption.14}%
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces 抽象语法树子树划分实验结果\relax }}{21}{table.caption.11}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces 抽象语法树子树划分实验结果\relax }}{24}{table.caption.15}%
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {5.1}{\ignorespaces 图过滤机制实验结果\relax }}{23}{table.caption.12}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces 图过滤机制实验结果\relax }}{26}{table.caption.16}%
 \addvspace {10.0pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces RLCCD实验结果\relax }}{25}{table.caption.13}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces RLCCD实验结果\relax }}{28}{table.caption.17}%
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \contentsfinish 

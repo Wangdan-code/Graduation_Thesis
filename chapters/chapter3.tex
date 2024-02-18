@@ -33,23 +33,118 @@ Word2vec模型 多次迭代维护词汇表，从而减少OOV问题
 
 \subsection{实验设计}
 （1）实验环境
+本章的实验验证均运行于Linux系统下，其系统硬件配置如表\ref{tab:environment}所示。
+
+\begin{table}
+  \centering
+  \caption{实验环境配置} 
+  \label{tab:environment}
+  \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}cc}
+  \toprule
+    环境			&配置		\\
+  \midrule
+    操作系统		&Ubuntu 20.04 \\
+    处理器			&Intel Core i9-12900KF × 24 \\
+    内存			  &31.1G \\
+    显卡			  &NVIDIA  \\
+    磁盘			  &1TB \\
+  \bottomrule
+  \end{tabular*}
+\end{table}
 
 （2）实验数据集
-POJ104数据集
+
+为了验证预训练辅助模型在Token层面上表征学习的有效性，本文面向代码克隆检测任务对预训练辅助模型进行分析和评估，选取的实验数据为POJ104数据集。如表\ref{tab：dataset}所示，POJ104数据集是一个基于C语言所构建的大型数据集。OJ系统是一个以编程教学为目的公开评判系统，共存在104个编程问题，针对每个编程问题，学生们通过在线提交自己的代码来尝试解决，同时OJ系统将自动判断提交源代码的正确性和有效性。对于OJ系统中同一个编程问题来说，其所有正确提交的代码都为克隆代码，对于不同的编程问题所提交的代码，即为非克隆代码。POJ104数据集针对每一个编程问题，均提供500个学生提交源代码，即共有52000个样本。
+
+\begin{table}
+  \centering
+  \caption{POJ104数据集} 
+  \label{tab：dataset}
+  \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}cc}
+  \toprule
+    代码			&属性		\\
+  \midrule
+    Dataset			&POJ104数据集 \\
+    Language    &C \\
+    Program			&52000 \\
+    Classes			&104 \\
+    Max tokens			&8737 \\
+    Avg tokens			&245 \\
+  \bottomrule
+  \end{tabular*}
+\end{table}
+
+得到POJ104数据集后，本文首先对数据集进行初步筛选，去掉其中包含乱码的样本，共得到51485个源代码样本。然后对源代码进行预处理，删除样本中包含的空白行和注释等多余代码，并将数据集保存到一个program.pkl文件中，program.pkl文件中一共包含51485行×3列的数据集，每一行数据代表一个源代码样本，第一列为源代码id，第二列保存源代码样本code，第三列为源代码的标签label，即属于哪一个编程问题。接着，本文随机两两组合同一标签label的源代码，组成5200个真克隆对，随机组合不同标签的源代码组成44800个假克隆对，一共给包含50000个克隆对，并将其保存到oj\_clone\_ids.pkl文件中，oj\_clone\_ids.pkl文件中一共包含50000行×3列的数据集，每一行数据代表一个克隆对样本，第一列为源代码id1，第二列为源代码id2，第三列为克隆对的标签label，真克隆对标签为1，假克隆对标签为0。最后，依据随机种子将数据集按照3：1：1划分为训练集、测试集、验证集，其中的正负样本数如下表\ref{tab:ClonePairs}所示。
+
+\begin{table}
+  \centering
+  \caption{本文预处理后的POJ104数据集正负样本数} 
+  \label{tab:ClonePairs}
+  \begin{tabular*}{0.8\textwidth}{@{\extracolsep{\fill}}cccc}
+  \toprule
+    数据集			&真克隆对		&假克隆对		&克隆对数 \\
+  \midrule
+    训练集train			&3162	  &26838		&30000 \\
+    测试集test			&1022		&8978		  &10000 \\
+    验证集dev			  &1016		&8984		  &10000 \\
+    总计            &5200	  &44800	  &50000 \\
+  \bottomrule
+  \end{tabular*}
+\end{table}
 
 （3）评估指标
-分类问题 采用召回率(Recall)、精确度(Precision)和准确率（Accuracy）三个指标评价实验结果
+
+代码克隆检测问题是二分类问题，因此本文采用精确率（Precision）、召回率（Recall）、F1值
+
+为了对实验结果进行评价和分析，本文将用 ACC、
+Recall、F1-measure 和 MCC 四个指标来评估实验结果。
+其中使用了混淆矩阵中的TP、FN、FP、TN（如表\ref{tab:ConfusionMatrix}）。
+
+\begin{table}
+  \centering
+  \caption{分类问题的混淆矩阵} 
+  \label{tab:ConfusionMatrix}
+  \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}ccc}
+  \toprule
+  \multirow{2}{*}{实际值} & \multicolumn{2}{c}{预测值} \\
+  \multirow{2}{*}{} & 正样本(P) & 负样本(N) \\
+  \midrule
+    正样本(P)			&TP	  &FN		 \\
+    负样本(N)			&FP		&TN		 \\
+  \bottomrule
+  \end{tabular*}
+\end{table}
+
+
+
+ACC：准确率是针对代码分类的预测结果而言，是
+分类任务最常见的评价指标。通常来说，准确率越高，
+分类器越好；
+ACC = TP + TN
+P + N （16）
+Recall：召回率表示的是样本中的正例中被预测正
+确的概率。主要由两部分组成，一部分是是把正类预测
+成正类（TP），另一部分就是把正类预测为负类（FN）。
+Recall = TP
+TP + FN （17）
+
+
+
+
+
+采用召回率(Recall)、精确度(Precision)和准确率（Accuracy）三个指标评价实验结果
 
 \subsection{预训练辅助模型消融实验结果}
-消融对比实验：体现改进的辅助模型的有效性
+消融对比实验：体现改进的辅助模型的有效性，如图\ref{tab:category}
 基于Token的Bi LSTM
 基于Token的+预训练辅助模型的Bi LSTM
 
 
 \begin{table}
   \centering
-  \caption{预训练辅助模型实验结果} %\label{tab:category}
-  \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}}cccc}
+  \caption{预训练辅助模型实验结果} 
+  \label{tab:category}
+  \begin{tabular*}{0.8\textwidth}{@{\extracolsep{\fill}}cccc}
   \toprule
     对比			&P		&R		&F1 \\
   \midrule
