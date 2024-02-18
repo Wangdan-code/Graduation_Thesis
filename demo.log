@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.8)  15 FEB 2024 13:21
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.8)  16 FEB 2024 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1454,57 +1454,58 @@ File: figures/figure1.png Graphic file (type bmp)
 
  (./chapters/chapter2.tex
 第2章
-File: figures/framework.png Graphic file (type bmp)
-<figures/framework.png>
 [13
 
 
 
 
-] [14]) [15]
+]
+File: figures/framework.png Graphic file (type bmp)
+<figures/framework.png>
+ [14] [15]) [16]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 第3章
-[16
+[17
 
 
 
 
-] [17]) [18]
+] [18]) [19]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 第4章
-[19
+[20
 
 
 
 
-]) [20]
+]) [21]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
 第5章
-[21
+[22
 
 
 
 
-]) [22]
+]) [23]
 \openout2 = `chapters/chapter6.aux'.
 
  (./chapters/chapter6.tex
 第6章
-[23
+[24
 
 
 
 
-]) [24]
+]) [25]
 \openout2 = `chapters/conclusion.aux'.
 
- (./chapters/conclusion.tex) [25
+ (./chapters/conclusion.tex) [26
 
 
 
@@ -1531,11 +1532,11 @@ Underfull \hbox (badness 3907) in paragraph at lines 28--32
 
 Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
 Missing character: There is no � (U+FFFD) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-[26
+[27
 
 
 
-] [27]
+] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 164--168
 \TU/TimesNewRoman(0)/m/n/10.53937 ArXiv, 2017, abs/1711.00740. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] []
  []
@@ -1545,7 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--181
 \TU/TimesNewRoman(0)/m/n/10.53937 ArXiv, 2018, abs/1805.08490. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] []
  []
 
-[28]) [29]
+[29]) [30]
 \openout2 = `chapters/pub.aux'.
 
  (./chapters/pub.tex
@@ -1553,14 +1554,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--181
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 (Font)              using `TU/SimSun(0)/m/n' instead on input line 10.
 
-) [30
+) [31
 
 
 
 ]
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex) [31
+ (./chapters/thanks.tex) [32
 
 
 
@@ -1574,15 +1575,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `demo.out' has not changed.
-(rerunfilecheck)             Checksum: 9FF537948930760C216AD9DB3413A58F;7882.
+(rerunfilecheck)             Checksum: 514D46F5834CCD7FAEB08CB9BE2C22E9;8018.
  ) 
 Here is how much of TeX's memory you used:
  36937 strings out of 476179
  829525 string characters out of 5807339
- 1091895 words of memory out of 5000000
+ 1092038 words of memory out of 5000000
  56899 multiletter control sequences out of 15000+600000
  493540 words of font info for 208 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,12n,118p,1339b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on demo.pdf (43 pages).
+Output written on demo.pdf (44 pages).
